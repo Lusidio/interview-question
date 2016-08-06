@@ -4,6 +4,8 @@
 
 Your objective for this puzzle is to reconstruct an image from a collection of vertically shredded images. Specifically, you will be given a directory of `k` (`m x n`) images, and will need to reconstruct them into one (`m x kn`) image. The vertical shredded images are mutually exclusive and collectively exhaustive - that is, they represent the entire image but they don't overlap.
 
+*Note: This challenge assumes that you have Python 3 installed on your machine. We also require that you install pip, a Python packing management tool. For more information on setting up pip, see https://pip.pypa.io/en/stable/installing/*
+
 ## Helpful Utilities
 
 We have provided a general utility library to interact with image files in `imageutils.py`, which exports some useful functions:
