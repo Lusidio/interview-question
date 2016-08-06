@@ -108,7 +108,6 @@ Consider the functional aspect to the above design. A `slice_similarity` functio
 	
 ```
 imagereassemble/
-├── completed-dna.txt
 ├── README.md
 ├── imageutils.py
 ├── reassemble.py
@@ -118,7 +117,7 @@ imagereassemble/
     └── destination/
 ```
 
-In addition to the `imageutils.py` utility file, you will find a number of vertically shredded images in `shredded/`. The images in `easy/` represent an image that has been shredded into four pieces, each of which is wide enough to reassemble by hand, so you can check your work. The images in `grail20/` represent the same image, sliced into 20 pieces.
+In addition to the `imageutils.py` utility file, you will find a number of vertically shredded images in `shredded/`. The images in `grail4/` represent an image that has been shredded into four pieces, each of which is wide enough to reassemble by hand, so you can check your work. The images in `grail20/` represent the same image, sliced into 20 pieces.
 
 If you want additional shredded images to play around with, consider building your own, or email us for another sample.
 
