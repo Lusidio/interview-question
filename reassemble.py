@@ -2,10 +2,6 @@
 """
 File: reassemble.py
 -------------------
-Assignment 2: Quest for the Holy Grail
-Course: CS 41
-Name: James Webb
-SUNet: jmwebb
 
 Reassembles verticle shreds of images using comparing the left and right
 most column of each shred to every other shred. Column similarity is
